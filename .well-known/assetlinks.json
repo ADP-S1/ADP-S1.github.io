@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.contri.contri",
+    "sha256_cert_fingerprints": ["B1:28:E2:E9:E6:7B:36:A8:63:C8:68:7D:AB:CB:DC:21:97:A7:88:3F:65:1D:62:D4:34:D3:66:B0:5A:97:7E:B9"]
+  }
+}]

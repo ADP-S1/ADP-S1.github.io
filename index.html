@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Join Group - Contri</title>
+  <script>
+    const path = window.location.pathname;
+    const token = path.split('/join/')[1];
+    if (token) {
+      window.location.href = 'contri://join/' + token;
+    }
+  </script>
+</head>
+<body>
+  <h1>Opening Contri...</h1>
+  <p>If the app doesn't open, download it from Play Store, <a href="https://adhax.vercel.app/">download it here</a>..</p>
+</body>
+</html>
